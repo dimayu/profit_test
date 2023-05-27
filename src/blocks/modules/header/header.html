@@ -1,7 +1,73 @@
 <header class="header">
-    <div class="wrapper">
-        <div class="header__items">
-
+  <div class="wrapper">
+    <div class="header__items">
+      <a href="/" class="header__items__logo">
+        <div class="header__items__logo--img">
+            <img src="img/logo.png" alt="logo" width="115px" height="59px" />
         </div>
+        <div class="header__items__logo--text">
+          <p>Развитие отделов продаж по всей</p>
+          <p>России с гарантией роста выручки</p>
+          <p class="grey">Работаем с 2016 года</p>
+        </div>
+      </a>
+        <div class="header__items__rating">
+          <img src="img/stars.png" alt="stars" class="header__items__rating--img">
+            <p>Рейтинг 4,9 в Google</p>
+            <p>50+ отзывов</p>
+        </div>
+      <div class="header__items__location">
+        <div class="header__items__location--img">
+          <img src="img/map.png" alt="stars" width="49px" height="49px">
+          <svg>
+            <use xlink:href="img/sprites/sprite.svg#map"></use>
+          </svg>
+        </div>
+        <div class="header__items__location--text">
+          <form>
+            <label for="city-select">
+              <svg>
+                <use xlink:href="img/sprites/sprite.svg#location"></use>
+              </svg>
+            </label>
+            <select name="city" id="city-select">
+              <option value="" selected>Екатеринбург</option>
+              <option value="">Самара</option>
+              <option value="">Пермь</option>
+              <option value="">Новосибирск</option>
+            </select>
+          </form>
+          <p>ул. Ткачей 23</p>
+          <p class="grey">Ежедневно с 9 до 20</p>
+        </div>
+      </div>
+      <div class="header__items__dir">
+        <div class="header__items__dir--img">
+          <img src="img/dir.png" alt="dir" class="header__items__dir--img">
+        </div>
+        <div class="header__items__dir--text">
+          <p>Игорь Николаевич</p>
+          <p class="grey">Генеральный директор</p>
+          <a href="mailto:" class="link-green">Написать директору</a>
+        </div>
+      </div>
+      <div class="header__items__contacts">
+        <p>Напишите в
+          <a href="https://t.me/" class="link-blue">
+            <svg>
+              <use xlink:href="img/sprites/sprite.svg#telegram"></use>
+            </svg>
+            <span>Telegram</span>
+          </a>
+        </p>
+        <a href="tel:+7 923 888-45-87" class="header__items__contacts--phone">+7 923 888-45-87</a>
+        <a href="#" class="link-green">перезвоните мне</a>
+      </div>
+      <button class="btn">стать нашим партнером</button>
+      <button class="btn btn-mask">
+        <span>срочный<br/>ремонт</span>
+        <img src="img/bg-btn.png" alt="bg" width="85px" height="60px">
+      </button>
     </div>
+  </div>
 </header>
